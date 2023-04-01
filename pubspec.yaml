@@ -1,0 +1,224 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/prototype/images/battery.png
+    - assets/prototype/images/rectangle-41.png
+    - assets/ui/images/wifi.png
+    - assets/ui/images/vector-13.png
+    - assets/ui/images/battery-urm.png
+    - assets/prototype/images/neon-background.png
+    - assets/ui/images/vent.png
+    - assets/ui/images/neon-background-SAy.png
+    - assets/prototype/images/vector-13-To3.png
+    - assets/prototype/images/union.png
+    - assets/ui/images/screenshot2022-02-03at225-1.png
+    - assets/prototype/images/vector-13-m1X.png
+    - assets/ui/images/vector-13-jH7.png
+    - assets/ui/images/slider.png
+    - assets/ui/images/image-40.png
+    - assets/prototype/images/image-40-Zwb.png
+    - assets/prototype/images/battery-bho.png
+    - assets/prototype/images/image-40-wU9.png
+    - assets/ui/images/trunk.png
+    - assets/prototype/images/mobile-signal.png
+    - assets/ui/images/vector-13-tJh.png
+    - assets/prototype/images/wifi-Bnu.png
+    - assets/prototype/images/union-HJ5.png
+    - assets/ui/images/wifi-iZK.png
+    - assets/prototype/images/mobile-signal-pcM.png
+    - assets/prototype/images/image-40-dzu.png
+    - assets/prototype/images/mobile-signal-egM.png
+    - assets/prototype/images/image-40-5iM.png
+    - assets/ui/images/tesla24x241x-1.png
+    - assets/prototype/images/battery-QhT.png
+    - assets/ui/images/battery-X1P.png
+    - assets/prototype/images/mobile-signal-VcR.png
+    - assets/ui/images/mobile-signal-kbP.png
+    - assets/prototype/images/ellipse-stroke.png
+    - assets/ui/images/ellipse-stroke-hu7.png
+    - assets/prototype/images/wifi-9tq.png
+    - assets/ui/images/rectangle-41-hsj.png
+    - assets/prototype/images/vector-13-7tq.png
+    - assets/prototype/images/vector-13-Dgy.png
+    - assets/prototype/images/battery-94q.png
+    - assets/prototype/images/vector-13-Gv9.png
+    - assets/prototype/images/battery-1cq.png
+    - assets/ui/images/wifi-wWV.png
+    - assets/ui/images/neon-light-effect.png
+    - assets/prototype/images/wifi-qrm.png
+    - assets/prototype/images/ellipse-stroke-a3f.png
+    - assets/ui/images/battery-h8H.png
+    - assets/ui/images/neon-background-1em.png
+    - assets/ui/images/vector-13-k6Z.png
+    - assets/prototype/images/tesla24x241x-1-fjK.png
+    - assets/prototype/images/slider-c8m.png
+    - assets/ui/images/slider-UYm.png
+    - assets/prototype/images/mobile-signal-Md7.png
+    - assets/prototype/images/neon-background-ay3.png
+    - assets/prototype/images/mobile-signal-6Ah.png
+    - assets/prototype/images/neon-background-kZK.png
+    - assets/prototype/images/vector-13-dt1.png
+    - assets/prototype/images/image-35.png
+    - assets/prototype/images/rectangle-42.png
+    - assets/ui/images/neon-light-effect-B9o.png
+    - assets/prototype/images/slider-9Vw.png
+    - assets/prototype/images/wifi-Uo7.png
+    - assets/prototype/images/rectangle-42-c8d.png
+    - assets/prototype/images/battery-kEq.png
+    - assets/prototype/images/battery-HEm.png
+    - assets/ui/images/rectangle-41-pEh.png
+    - assets/prototype/images/wifi-xLu.png
+    - assets/ui/images/mobile-signal-VLq.png
+    - assets/prototype/images/open.png
+    - assets/prototype/images/vector-13-BzM.png
+    - assets/prototype/images/neon-background-88u.png
+    - assets/ui/images/vector-13-rqb.png
+    - assets/ui/images/battery-zwo.png
+    - assets/prototype/images/slider-LVs.png
+    - assets/prototype/images/wifi-g3w.png
+    - assets/ui/images/neon-background-Azh.png
+    - assets/prototype/images/wifi-79F.png
+    - assets/prototype/images/battery-GCm.png
+    - assets/prototype/images/union-Nmb.png
+    - assets/ui/images/mobile-signal-7DP.png
+    - assets/prototype/images/slider-qv5.png
+    - assets/prototype/images/slider-v8D.png
+    - assets/prototype/images/mobile-signal-8ih.png
+    - assets/prototype/images/battery-q7K.png
+    - assets/ui/images/dark-half-bg.png
+    - assets/prototype/images/battery-hvD.png
+    - assets/prototype/images/neon-background-UpV.png
+    - assets/prototype/images/tesla24x241x-1-Skd.png
+    - assets/prototype/images/slider-Mch.png
+    - assets/prototype/images/mobile-signal-bG9.png
+    - assets/prototype/images/wifi-VsK.png
+    - assets/prototype/images/vector-13-1Ks.png
+    - assets/prototype/images/neon-background-yrM.png
+    - assets/prototype/images/vector-13-tTX.png
+    - assets/prototype/images/rectangle-41-RTT.png
+    - assets/prototype/images/battery-ZZf.png
+    - assets/prototype/images/neon-background-trq.png
+    - assets/prototype/images/slider-dZX.png
+    - assets/prototype/images/ellipse-stroke-Px1.png
+    - assets/prototype/images/wifi-hC1.png
+    - assets/prototype/images/neon-background-dLZ.png
+    - assets/prototype/images/mobile-signal-Lkm.png
+    - assets/ui/images/tesla24x241x-1-MbK.png
+    - assets/prototype/images/battery-n5b.png
+    - assets/prototype/images/neon-background-UPF.png
+    - assets/prototype/images/mobile-signal-mQH.png
+    - assets/prototype/images/frame-3727.png
+    - assets/prototype/images/battery-NyB.png
+    - assets/prototype/images/tesla-image-unsplash.png
+    - assets/prototype/images/battery-PFb.png
+    - assets/prototype/images/wifi-AWZ.png
+    - assets/prototype/images/vector-13-SsP.png
+    - assets/prototype/images/tesla-image-unsplash-yF3.png
+    - assets/prototype/images/tesla-image-unsplash-eTP.png
+    - assets/prototype/images/wifi-Z73.png
+    - assets/prototype/images/battery-oq7.png
+    - assets/prototype/images/image-48.png
+    - assets/prototype/images/mobile-signal-Zgq.png
+    - assets/prototype/images/frame-3727-TmX.png
+    - assets/prototype/images/tesla-image-unsplash-bg.png
+    - assets/prototype/images/tesla-image-unsplash-P9X.png
+    - assets/prototype/images/wifi-vHs.png
+    - assets/prototype/images/mobile-signal-thj.png
+    - assets/prototype/images/battery-eNR.png
+    - assets/prototype/images/tesla-image-unsplash-qUq.png
+    - assets/prototype/images/wifi-X2D.png
+    - assets/prototype/images/image-48-rE9.png
+    - assets/prototype/images/neon-background-1HF.png
+    - assets/prototype/images/battery-jm7.png
+    - assets/prototype/images/mobile-signal-zwo.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
